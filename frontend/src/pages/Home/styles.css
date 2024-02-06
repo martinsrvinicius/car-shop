@@ -1,0 +1,161 @@
+.home-content-container {
+    margin: 10px;
+}
+
+.top-container {
+    background-color: #00285F;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.top-container img {
+    width: 80%;
+    max-width:350px;
+    margin: 60px auto 30px;
+}
+
+.top-container div {
+    margin: 10px;
+    text-align: center;
+}
+
+.top-container h1 {
+    font-size: 1.4em;
+}
+
+.top-container p {
+    font-size: 0.9em;
+    font-weight: 400;
+    padding: 0px 10px;
+}
+
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    align-items: center;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.bottom-container div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.bottom-container  button {
+    width: 174px;
+    height: 40px;
+    margin: auto;
+}
+
+.bottom-container button h6{
+    margin: auto;
+    font-size: 0.9em;
+}
+
+.bottom-container  p {
+    margin-top: 5px;
+    color:#585858;
+}
+
+
+
+@media screen and (min-width: 576px) {
+
+    .top-container {
+        padding-bottom: 40px;
+    }
+
+    .top-container img {
+        margin: 60px auto 0px;
+    }
+
+    .top-container h1 {
+        font-size: 2.3em;
+    }
+
+    .top-container p {
+        font-size:1em;
+        margin: auto;
+        width:380px ;
+    }
+
+    .bottom-container div{
+        flex-direction: row;
+        width:70%;
+        align-items: center;
+        margin: auto;
+    }
+
+    .bottom-container p {
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .bottom-container {
+        flex-direction: row;
+        justify-content: start;
+    }
+
+    .bottom-container div{
+        flex-direction: row;
+        width:70%;
+        justify-content: start;
+        align-items: center;
+        margin: unset;
+    }
+
+    .bottom-container button {
+        margin-right: 20px;
+    }
+
+    .bottom-container p {
+        margin-left: 0px ;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .top-container img {
+        max-width: 455px;
+    }
+
+    .bottom-container p {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .top-container {
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-around;
+    }
+
+    .top-container div {
+        width: 55%;
+        margin: 0;
+    }
+
+    .top-container img {
+        max-width: 350px;
+        margin-bottom: 60px;
+    }
+
+    .top-container p {
+       text-align: start;
+       padding:0 ;
+       width: 71%;
+       font-size: 1.1em;
+    }
+
+    .home-content-container {
+        max-width: 75%;
+        margin: auto;
+    }
+}
