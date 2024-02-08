@@ -1,0 +1,45 @@
+.search-container {
+   width: 95%;
+    margin: auto 10px;
+    height: 86px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar-inner-container {
+    display: flex;
+    flex-flow: row;
+    align-items: stretch;
+    margin: 10px;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.searchbar-inner-container input{
+    flex-grow: 1;
+    min-width:50px;
+    max-width: 515px;
+    height: 40px;
+    border: unset;
+    border-radius: 5px 0  0 5px;
+    padding-left: 10px;
+    
+}
+
+.searchbar-inner-container button {
+    min-width: 77px;
+    max-width: 175px;
+    height: 40px;
+    border-radius: 0 5px 5px 0; flex-grow: 1;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 1200px) {
+    .search-container {
+        width: 75%;
+     }
+}
