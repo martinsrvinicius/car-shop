@@ -1,12 +1,11 @@
 import './styles.css';
+import Navbar from '../../components/Navbar';
 import Car from '../../assets/images/car-header.png'
 
 const Home = () => {
     return (
         <>
-            <div>
-                NAVBAR
-            </div>
+            <Navbar />
             <div className="home-content-container">
                 <div className="top-container">
                     <div className="body-color body-bg">

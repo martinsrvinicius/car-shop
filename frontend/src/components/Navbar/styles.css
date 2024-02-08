@@ -1,0 +1,55 @@
+.nav-logo-text, .nav-logo-text:hover {
+    color: #00285F;
+}
+
+.main-menu {
+    display: flex;
+    font-size: 18px;
+    width: 380px;
+    justify-content: space-between;
+}
+
+.main-menu a {
+    color: #00285F;
+}
+
+.main-menu a:hover {
+    color: #00285F;
+}
+
+.main-menu a.active {
+    color: #00285F;
+    font-weight: 700;
+}
+
+.main-nav {
+    min-height: 70px;
+    padding-left: 40px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    #car-shop-navbar {
+        display: flex;
+        justify-content: end;
+        padding-right: 1%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #car-shop-navbar {
+        padding-right: 1%;
+    }
+   
+}
+
+@media screen and (min-width: 1200px) {
+    #car-shop-navbar {
+        padding-right: 12%;
+    }
+
+    .nav-logo-text {
+        padding-left: 12%;
+    }
+}
