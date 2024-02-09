@@ -28,7 +28,7 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="car-shop-navbar">
                         <ul className="navbar-nav main-menu col-md-3 col-lg-2 col-xl-2">
                             <li>
-                                <NavLink to="/home" className={({isActive}) => isActive ? 'active' : ''} >
+                                <NavLink to="/" className={({isActive}) => isActive ? 'active' : ''} >
                                    Home
                                 </NavLink>
                             </li>

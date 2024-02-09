@@ -5,7 +5,7 @@ import Catalog from "./pages/Catalog";
 const Router = () => (
     <BrowserRouter>
         <Routes>
-            <Route path="/home" element={<Home/>} />
+            <Route path="/" element={<Home/>} />
             <Route path="/products" element={<Catalog/>}/>
         </Routes>
     </BrowserRouter>
